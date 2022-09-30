@@ -28,7 +28,7 @@
     height: 2.5rem;
     background-color: #8ce68c;
     font-size: 1.1rem;
-    cursor: pointer;   
+    cursor: pointer;
     border-radius: 15px;
     margin:3rem auto;
 }
@@ -56,8 +56,8 @@
     width:100%;
     padding:0.5rem;
 }
-.result_grey{
-    background-color:#F2F2F2;
+.result:nth-child(odd) {
+  background-color:#F2F2F2;
 }
 
 .code_red{

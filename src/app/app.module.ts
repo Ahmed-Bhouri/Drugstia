@@ -8,7 +8,6 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { ProtocolsPageComponent } from './pages/protocols-page/protocols-page.component';
 import { ProtocolPageComponent } from './pages/protocol-page/protocol-page.component';
 import { DciPageComponent } from './pages/dci-page/dci-page.component';
-import { MedicamentPageComponent } from './pages/medicament-page/medicament-page.component';
 import { EtablissementPageComponent } from './pages/etablissement-page/etablissement-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { EtablissementStockPageComponent } from './pages/etablissement-stock-page/etablissement-stock-page.component';
@@ -23,7 +22,6 @@ import { ReportsPageComponent } from './pages/reports-page/reports-page.componen
     ProtocolsPageComponent,
     ProtocolPageComponent,
     DciPageComponent,
-    MedicamentPageComponent,
     EtablissementPageComponent,
     NavbarComponent,
     EtablissementStockPageComponent,

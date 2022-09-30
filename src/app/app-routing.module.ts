@@ -6,7 +6,6 @@ import { EtablissementStockPageComponent } from './pages/etablissement-stock-pag
 
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
-import { MedicamentPageComponent } from './pages/medicament-page/medicament-page.component';
 import { ProtocolsPageComponent } from './pages/protocols-page/protocols-page.component';
 import { ReportsPageComponent } from './pages/reports-page/reports-page.component';
 import { ReportPageComponent } from './pages/report-page/report-page.component';
@@ -18,8 +17,8 @@ const routes: Routes = [
   { path: 'protocol/:id', component: ProtocolsPageComponent },
   { path: 'pharmacie/:id', component: EtablissementPageComponent },
   { path: 'grossiste/:id', component: EtablissementPageComponent },
-  { path: 'dci', component: DciPageComponent },
-  { path: 'medicament/:id', component: MedicamentPageComponent },
+  { path: 'dci/:id', component: DciPageComponent },
+  { path: 'medicament/:id', component: DciPageComponent },
   { path: 'stock', component: EtablissementStockPageComponent }, // check self stock
   { path: 'report', component: ReportPageComponent },
   { path: 'reports', component: ReportsPageComponent },
