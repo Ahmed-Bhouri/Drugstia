@@ -3,7 +3,7 @@
     flex-direction:column;
 }
 h1{
-    margin:5rem;
+    margin:3rem;
     text-align:center;
 }
 .results_container{
@@ -36,4 +36,16 @@ h1{
 }
 .pdf:hover{
     background-color: #f90a0aa1;
+}
+.mybtn{
+    border: 2.5px solid;
+    width: 7rem;
+    height: 2rem;
+    background-color: #8ce68c;
+    font-size: 1rem;
+    cursor: pointer;
+    margin:4rem auto;
+}
+.mybtn:hover{
+    background-color: #00a84E;
 }

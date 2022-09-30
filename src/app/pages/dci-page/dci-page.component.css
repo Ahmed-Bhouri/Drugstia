@@ -55,15 +55,24 @@ h2{
     background-color:white;
 }
 
+.nationale{
+    margin-bottom: -1rem;
+    margin-top: 3rem;
+}
 .stats .square{
-    width: 9rem;
-    height: 9rem;
+    width: 15rem;
+    height: 8rem;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
-
+.variant_title{
+    font-size: 1.2rem;
+}
+.variant_status{
+    font-size: 1rem;
+}
 .code_red{
     color:#F90A0A;
 }
@@ -90,4 +99,7 @@ h2{
 }
 .mybtn:hover{
     background-color: #00a84E;
+}
+.code_yellow{
+    color:#FFB300;
 }

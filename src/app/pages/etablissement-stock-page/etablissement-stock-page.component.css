@@ -48,7 +48,7 @@ h1{
 .result a{
     color:Blue;
     cursor:pointer;
-}
+}   
 .result .type{
     display:flex;
     flex-direction: row;
@@ -65,4 +65,11 @@ h1{
 }
 .mybtn:hover{
     background-color: #00a84E;
+}
+.ct{
+    display:flex;
+    margin: auto;
+}
+.ct button{
+    margin: 2rem;
 }
