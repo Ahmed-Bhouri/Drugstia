@@ -12,16 +12,16 @@ import { ReportsPageComponent } from './pages/reports-page/reports-page.componen
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
-  { path: '/login', component: LoginPageComponent },
-  { path: '/main', component: MainPageComponent },
-  { path: '/protocol/:id', component: ProtocolsPageComponent },
-  { path: '/pharmacie/:id', component: EtablissementPageComponent },
-  { path: '/grossiste/:id', component: EtablissementPageComponent },
-  { path: '/dci/:id', component: DciPageComponent },
-  { path: '/medicament/:id', component: MedicamentPageComponent },
-  { path: '/stock', component: EtablissementStockPageComponent }, // check self stock
-  { path: '/reports', component: ReportsPageComponent },
-  { path: '/protocols', component: ProtocolsPageComponent }, // Ineas
+  { path: 'login', component: LoginPageComponent },
+  { path: 'main', component: MainPageComponent },
+  { path: 'protocol/:id', component: ProtocolsPageComponent },
+  { path: 'pharmacie/:id', component: EtablissementPageComponent },
+  { path: 'grossiste/:id', component: EtablissementPageComponent },
+  { path: 'dci/:id', component: DciPageComponent },
+  { path: 'medicament/:id', component: MedicamentPageComponent },
+  { path: 'stock', component: EtablissementStockPageComponent }, // check self stock
+  { path: 'reports', component: ReportsPageComponent },
+  { path: 'protocols', component: ProtocolsPageComponent }, // Ineas
 ];
 
 @NgModule({
