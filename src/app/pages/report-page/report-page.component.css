@@ -6,6 +6,7 @@
     align-items: center;
     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
     padding:2rem;
+    background-color:white;
 }
 .upper{
     display: flex;
@@ -34,4 +35,18 @@
 h1{
     text-align: center;
     margin: 5rem;
+}
+.formbtn{
+    border: 2.5px solid;
+    width: 9rem;
+    height: 2.5rem;
+    background-color: #8ce68c;
+    font-size: 1.1rem;
+    cursor: pointer;   
+    border-radius: 15px;
+    margin:3rem auto;
+}
+.report{
+    display: flex;
+    flex-direction: column;
 }
