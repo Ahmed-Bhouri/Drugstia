@@ -1,0 +1,93 @@
+.dci{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+}
+
+h2{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    padding:1rem;
+    background-color:white;
+}
+.variant{
+    width:9rem;
+    height:2.5rem;
+    border:none;
+    background:white;
+    cursor:pointer;
+}
+.variant:hover{
+    background:#F2F2F2;
+
+}
+.variant_grey{
+    background: #F2F2F2;
+}
+.variant_grey:hover{
+    background: white;
+}
+.selected{
+    background:#8ce68c;
+}
+
+.stats{
+    margin: 5rem auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    background-color:#F2F2F2;
+}
+
+.stats .indispo{
+    background-color:white;
+}
+
+.stats .square{
+    width: 9rem;
+    height: 9rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.code_red{
+    color:#F90A0A;
+}
+.code_green{
+    color:#00A84E;
+}
+.pourcent{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.sugg div{
+    margin:0.5rem;
+}
+
+.mybtn{
+    border: 2.5px solid;
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #8ce68c;
+    font-size: 1rem;
+    cursor: pointer;
+    margin:auto;
+}
+.mybtn:hover{
+    background-color: #00a84E;
+}

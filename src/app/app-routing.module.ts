@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'protocol/:id', component: ProtocolsPageComponent },
   { path: 'pharmacie/:id', component: EtablissementPageComponent },
   { path: 'grossiste/:id', component: EtablissementPageComponent },
-  { path: 'dci/:id', component: DciPageComponent },
+  { path: 'dci', component: DciPageComponent },
   { path: 'medicament/:id', component: MedicamentPageComponent },
   { path: 'stock', component: EtablissementStockPageComponent }, // check self stock
   { path: 'report', component: ReportPageComponent },
